@@ -1,0 +1,123 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(75, 75, 75);
+}
+
+.container {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid rgb(1, 53, 1);
+    background-color: rgb(0, 255, 0);
+    padding: 26px;
+}
+
+.display {
+    display: flex;
+    background-color: yellow;
+    border: 3px solid green;
+    justify-content: flex-end;
+}
+
+.firstRow {
+    display: flex;
+    flex: 1;
+    margin: 10px 0 10px 0;
+}
+
+.secondRow {
+    display: flex;
+    flex: 1;
+    margin: 0 0 10px 0;
+}
+
+.thirdRow {
+    display: flex;
+    flex: 1;
+    margin: 0 0 10px 0;
+}
+
+.fourthRow {
+    display: flex;
+    flex: 1;
+    margin: 0 0 10px 0;
+}
+
+.fifthRow {
+    display: flex;
+    flex: 1;
+}
+
+.clear,
+.delete,
+.modulo,
+.divide {
+    flex: 1;
+}
+
+.seven,
+.eight,
+.nine,
+.multiply {
+    flex: 1;
+}
+
+.four,
+.five,
+.six,
+.subtract {
+    flex: 1;
+}
+
+.one,
+.two,
+.three,
+.add {
+    flex: 1;
+}
+
+.zero,
+.floatingPoint {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.equal {
+    flex: 2.5;
+}
+
+.clear,
+.delete,
+.modulo {
+    margin-right: 10px;
+}
+
+.seven,
+.eight,
+.nine {
+    margin-right: 10px;
+}
+
+.four,
+.five,
+.six {
+    margin-right: 10px;
+}
+
+.one,
+.two,
+.three {
+    margin-right: 10px;
+}
+
+.numberPara {
+    margin: 20px 12px;
+}
