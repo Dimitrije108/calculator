@@ -85,14 +85,20 @@ html, body {
 }
 
 .zero,
-.floatingPoint {
+.floatingPoint,
+.minus {
     flex: 1;
     margin-right: 10px;
 }
 
+.zero,
+.floatingPoint,
+.minus,
 .equal {
-    flex: 2.5;
+    flex: 1;
 }
+
+
 
 .clear,
 .delete,
