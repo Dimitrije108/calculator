@@ -29,6 +29,9 @@ function operate(a, operator, b) {
         case '*':
             return multiply(+a, +b);
         case '/':
+            if (b === '0') {
+                alert('IMPOSSIBLE!');
+            };
             return divide(+a, +b);
         case '%':
             return modulo(+a, +b);
