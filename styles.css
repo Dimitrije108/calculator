@@ -99,7 +99,8 @@ button {
     font-size: 22px;
 }
 
-.delete {
+.delete,
+.modulo {
     font-size: 26px;
 }
 

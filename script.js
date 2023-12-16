@@ -31,6 +31,7 @@ function operate(a, operator, b) {
         case '/':
             if (b === '0') {
                 alert('IMPOSSIBLE!');
+                return display.textContent = 0;
             };
             return divide(+a, +b);
         case '%':
